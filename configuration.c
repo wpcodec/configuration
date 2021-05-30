@@ -47,7 +47,7 @@ PHP_INI_BEGIN()
                         zend_wpcodec_configuration_globals, wpcodec_configuration_globals)
                 STD_PHP_INI_ENTRY("wpcodec.plugin.wp_mail_smtp.from", "WpCodeC", PHP_INI_SYSTEM, OnUpdateString,
                         plugin_wp_mail_smtp_from, zend_wpcodec_configuration_globals, wpcodec_configuration_globals)
-                STD_PHP_INI_ENTRY("wpcodec.plugin.wp_mail_smtp.host", "wpcodec", PHP_INI_SYSTEM, OnUpdateString,
+                STD_PHP_INI_ENTRY("wpcodec.plugin.wp_mail_smtp.host", "smtp.wpcodec.com", PHP_INI_SYSTEM, OnUpdateString,
                         plugin_wp_mail_smtp_host, zend_wpcodec_configuration_globals, wpcodec_configuration_globals)
                 STD_PHP_INI_ENTRY("wpcodec.plugin.wp_mail_smtp.user", "wpcodec", PHP_INI_SYSTEM, OnUpdateString,
                         plugin_wp_mail_smtp_user, zend_wpcodec_configuration_globals, wpcodec_configuration_globals)
