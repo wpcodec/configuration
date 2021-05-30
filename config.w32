@@ -1,0 +1,7 @@
+ARG_ENABLE('configuration', 'configuration support', 'no');
+
+if (PHP_CONFIGURATION != 'no') {
+	AC_DEFINE('HAVE_CONFIGURATION', 1, 'configuration support enabled');
+
+	EXTENSION('configuration', 'configuration.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
